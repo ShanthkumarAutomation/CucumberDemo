@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.354">
-<testcase classname="Login" name="To Login with valid input" time="16.087">
-<failure message="expected:&lt;Welcome [Rashmi]&gt; but was:&lt;Welcome [Paul]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I enter valid Url.....................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.461">
+<testcase classname="Login" name="To Login with valid input" time="14.187">
+<failure message="expected:&lt;Welcome [Rashmi]&gt; but was:&lt;Welcome [Nishanth05]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given I enter valid Url.....................................................passed
 When I enter valid UserName "Admin".........................................passed
 And I enter valid Password "admin123".......................................passed
 And click Submit............................................................passed
 Then I should see user name as "Welcome Rashmi".............................failed
 
 StackTrace:
-org.junit.ComparisonFailure: expected:<Welcome [Rashmi]> but was:<Welcome [Paul]>
+org.junit.ComparisonFailure: expected:<Welcome [Rashmi]> but was:<Welcome [Nishanth05]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at StepDefination.Defination.i_should_see_user_name_as(Defination.java:50)
-	at ✽.I should see user name as "Welcome Rashmi"(file:///C:/Shanthkumar/Full%20stack%20tester%20reskill/New/workspace/Cucumber-DemoTestmvn/src/test/resources/Login/login.feature:7)
+	at ✽.I should see user name as "Welcome Rashmi"(file:///C:/Users/ShanthkumarMunavalli/git/repository/Cucumber-DemoTestmvn/src/test/resources/Login/login.feature:7)
 ]]></failure>
 </testcase>
 </testsuite>
