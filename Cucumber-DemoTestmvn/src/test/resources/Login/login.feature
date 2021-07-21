@@ -28,8 +28,8 @@ Then I should see username as "<loginname>"
 #This will be like a data driven test
 Examples:
 |name |pwd      |loginname|
-|Admin|admin123 |Welcome Fabiola|
-|Admin|admin123 |Welcome Fabiola|
+|Admin|admin123 |Welcome TestFN|
+|Admin|admin123 |Welcome TestFN|
 
 Scenario: To Login with Invalid Credentials
 When I enter Invalid UserName "Shanth"

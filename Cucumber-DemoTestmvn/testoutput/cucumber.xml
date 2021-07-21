@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="88.387">
-<testcase classname="Login" name="To test Login with Different Data" time="20.358">
-<failure message="expected:&lt;Welcome [Fabiola]&gt; but was:&lt;Welcome [Paul]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given Login page............................................................passed
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="44.613">
+<testcase classname="Login" name="To test Login with Different Data" time="15.308">
+<failure message="expected:&lt;Welcome [Fabiola]&gt; but was:&lt;Welcome [TestFN]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given Login page............................................................passed
 When Enter Valid Name "Admin"...............................................passed
 And Enter Valid password "admin123".........................................passed
 And click submit............................................................passed
 Then I should see username as "Welcome Fabiola".............................failed
 
 StackTrace:
-org.junit.ComparisonFailure: expected:<Welcome [Fabiola]> but was:<Welcome [Paul]>
+org.junit.ComparisonFailure: expected:<Welcome [Fabiola]> but was:<Welcome [TestFN]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at StepDefination.Defination.i_should_see_user_username_as(Defination.java:52)
 	at ✽.I should see username as "Welcome Fabiola"(file:///C:/Users/ShanthkumarMunavalli/git/repository/Cucumber-DemoTestmvn/src/test/resources/Login/login.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Login" name="To test Login with Different Data 2" time="14.745">
-<failure message="expected:&lt;Welcome [Fabiola]&gt; but was:&lt;Welcome [Paul]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given Login page............................................................passed
+<testcase classname="Login" name="To test Login with Different Data 2" time="15.235">
+<failure message="expected:&lt;Welcome [Fabiola]&gt; but was:&lt;Welcome [TestFN]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given Login page............................................................passed
 When Enter Valid Name "Admin"...............................................passed
 And Enter Valid password "admin123".........................................passed
 And click submit............................................................passed
 Then I should see username as "Welcome Fabiola".............................failed
 
 StackTrace:
-org.junit.ComparisonFailure: expected:<Welcome [Fabiola]> but was:<Welcome [Paul]>
+org.junit.ComparisonFailure: expected:<Welcome [Fabiola]> but was:<Welcome [TestFN]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at StepDefination.Defination.i_should_see_user_username_as(Defination.java:52)
 	at ✽.I should see username as "Welcome Fabiola"(file:///C:/Users/ShanthkumarMunavalli/git/repository/Cucumber-DemoTestmvn/src/test/resources/Login/login.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Login" name="To Login with Invalid Credentials" time="52.662">
+<testcase classname="Login" name="To Login with Invalid Credentials" time="13.502">
 <system-out><![CDATA[Given Login page............................................................passed
 When I enter Invalid UserName "Shanth"......................................passed
 And I enter Invalid Password "Shanth".......................................passed

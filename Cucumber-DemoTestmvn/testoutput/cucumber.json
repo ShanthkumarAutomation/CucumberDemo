@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12545000000,
+              "duration": 9586000000,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-20T19:07:46.471Z",
+        "start_timestamp": "2021-07-21T06:39:41.839Z",
         "line": 31,
         "name": "To test Login with Different Data",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 148000000,
+              "duration": 167000000,
               "status": "passed"
             },
             "line": 23,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 146000000,
+              "duration": 142000000,
               "status": "passed"
             },
             "line": 24,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 7212000000,
+              "duration": 5191000000,
               "status": "passed"
             },
             "line": 25,
@@ -82,8 +82,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Fabiola]\u003e but was:\u003cWelcome [Paul]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefination.Defination.i_should_see_user_username_as(Defination.java:52)\r\n\tat ✽.I should see username as \"Welcome Fabiola\"(file:///C:/Users/ShanthkumarMunavalli/git/repository/Cucumber-DemoTestmvn/src/test/resources/Login/login.feature:26)\r\n",
-              "duration": 76000000,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Fabiola]\u003e but was:\u003cWelcome [TestFN]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefination.Defination.i_should_see_user_username_as(Defination.java:52)\r\n\tat ✽.I should see username as \"Welcome Fabiola\"(file:///C:/Users/ShanthkumarMunavalli/git/repository/Cucumber-DemoTestmvn/src/test/resources/Login/login.feature:26)\r\n",
+              "duration": 54000000,
               "status": "failed"
             },
             "line": 26,
@@ -110,7 +110,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7701000000,
+              "duration": 7854000000,
               "status": "passed"
             },
             "line": 4,
@@ -123,7 +123,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-20T19:08:06.880Z",
+        "start_timestamp": "2021-07-21T06:39:57.184Z",
         "line": 32,
         "name": "To test Login with Different Data",
         "description": "",
@@ -133,7 +133,7 @@
         "steps": [
           {
             "result": {
-              "duration": 141000000,
+              "duration": 124000000,
               "status": "passed"
             },
             "line": 23,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 166000000,
+              "duration": 151000000,
               "status": "passed"
             },
             "line": 24,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 6662000000,
+              "duration": 7054000000,
               "status": "passed"
             },
             "line": 25,
@@ -181,8 +181,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Fabiola]\u003e but was:\u003cWelcome [Paul]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefination.Defination.i_should_see_user_username_as(Defination.java:52)\r\n\tat ✽.I should see username as \"Welcome Fabiola\"(file:///C:/Users/ShanthkumarMunavalli/git/repository/Cucumber-DemoTestmvn/src/test/resources/Login/login.feature:26)\r\n",
-              "duration": 70000000,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cWelcome [Fabiola]\u003e but was:\u003cWelcome [TestFN]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefination.Defination.i_should_see_user_username_as(Defination.java:52)\r\n\tat ✽.I should see username as \"Welcome Fabiola\"(file:///C:/Users/ShanthkumarMunavalli/git/repository/Cucumber-DemoTestmvn/src/test/resources/Login/login.feature:26)\r\n",
+              "duration": 46000000,
               "status": "failed"
             },
             "line": 26,
@@ -209,7 +209,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7276000000,
+              "duration": 8066000000,
               "status": "passed"
             },
             "line": 4,
@@ -222,7 +222,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-20T19:08:21.637Z",
+        "start_timestamp": "2021-07-21T06:40:12.440Z",
         "line": 34,
         "name": "To Login with Invalid Credentials",
         "description": "",
@@ -232,7 +232,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160000000,
+              "duration": 284000000,
               "status": "passed"
             },
             "line": 35,
@@ -250,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 39852000000,
+              "duration": 202000000,
               "status": "passed"
             },
             "line": 36,
@@ -268,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 2018000000,
+              "duration": 1603000000,
               "status": "passed"
             },
             "line": 37,
@@ -280,7 +280,7 @@
           },
           {
             "result": {
-              "duration": 3353000000,
+              "duration": 3344000000,
               "status": "passed"
             },
             "line": 38,
